@@ -194,7 +194,7 @@
 <html lang="<%=luci.i18n.context.lang%>">
 <head>
 	<meta charset="utf-8">
-	<title><%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %> - LuCI</title>
+	<title><%=striptags( ("AlbertZhan" or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %></title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
         <meta name="format-detection" content="telephone=no, email=no"/>
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -239,7 +239,7 @@
     </div>
     <div class="main-left">
         <div class="sidenav-header d-flex align-items-center">
-            <a class="brand" href="#"><%=boardinfo.hostname or "?"%> ™</a> 
+			<a class="brand" href="http://www.5lazy.cn">AlbertZhan ™</a>
             <div class="ml-auto">
                 <!-- Sidenav toggler -->
                 <div class="sidenav-toggler d-none d-xl-block active" data-action="sidenav-unpin" data-target="#sidenav-main">

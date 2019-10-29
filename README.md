@@ -1,3 +1,4 @@
+### 本套模板基于([https://github.com/jerrykuku/luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon))的修改版本，并保持更新。
 # luci-theme-argon
 A new Luci theme for LEDE/OpenWRT  
 Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-material and Argon Template  
@@ -11,7 +12,7 @@ The old version is still in another branch call old. If you need that you can ch
 Enter in your openwrt/package/lean  or  other
 
 ```
-git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/Albert-Zhan/luci-theme-argon.git
 make menuconfig #choose LUCI->Theme->Luci-theme-argon
 make -j1 V=s
 ```
@@ -24,7 +25,3 @@ make -j1 V=s
 <img src="/Screenshots/phone/Screenshot_1.jpg" width="375" height="792">
 <img src="/Screenshots/phone/Screenshot_2.jpg" width="375" height="792">
 <img src="/Screenshots/phone/Screenshot_3.jpg" width="375" height="792">
-
-
-## Thanks to 
-luci-theme-material: https://github.com/LuttyYang/luci-theme-material/
